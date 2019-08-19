@@ -1,6 +1,6 @@
 {
   "name": "@aymkdn/promisechain",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Permits to sequentially execute Promise requests one by one",
   "main": "index.js",
   "scripts": {

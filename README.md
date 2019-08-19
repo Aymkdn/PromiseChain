@@ -13,7 +13,7 @@ npm install @aymkdn/promisechain
 ## Usage
 
 ```javascript
-import PromiseChain from "@aymkdn/promisechain"
+const PromiseChain = require("@aymkdn/promisechain");
 let arr = ["one", "two", "three"];
 
 // Example with `Promise.all`

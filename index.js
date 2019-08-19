@@ -1,4 +1,4 @@
-export default function (arr, fct) {
+module.exports = function (arr, fct) {
   var dfd = Promise.resolve();
   var res = arr.map(function(item,idx) {
     dfd = dfd.then(function() {
