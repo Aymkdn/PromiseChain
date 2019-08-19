@@ -2,9 +2,18 @@
 
 `Promise.all` will execute all requets at the same time, but it often happens the case where you want to execute requests one by one, until all requests have been executed.
 
-It's what `PromiseChain` is doing; executing sequentially the requests upon full resolution:
+It's what `PromiseChain` is doing; executing sequentially the requests upon full resolution.
+
+## Installation
+
+```
+npm install @aymkdn/promisechain
+```
+
+## Usage
 
 ```javascript
+import PromiseChain from "@aymkdn/promisechain"
 let arr = ["one", "two", "three"];
 
 // Example with `Promise.all`
@@ -50,8 +59,3 @@ three completed.
 */
 ```
 
-## Installation
-
-```
-npm install @aymkdn/promisechain
-```
