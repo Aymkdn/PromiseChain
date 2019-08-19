@@ -1,0 +1,22 @@
+{
+  "name": "promisechain",
+  "version": "1.0.0",
+  "description": "Permits to sequentially execute Promise requests one by one",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aymkdn/PromiseChain.git"
+  },
+  "keywords": [
+    "promise"
+  ],
+  "author": "aymkdn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Aymkdn/PromiseChain/issues"
+  },
+  "homepage": "https://github.com/Aymkdn/PromiseChain#readme"
+}
