@@ -1,8 +1,8 @@
-# PromiseChain
+# PromiseSeq
 
 `Promise.all` will execute all requets at the same time, but it often happens the case where you want to execute requests one by one, until all requests have been executed.
 
-It's what `PromiseChain` is doing; executing sequentially the requests upon full resolution:
+It's what `PromiseSeq` is doing; executing sequentially the requests upon full resolution:
 
 ```javascript
 let arr = ["one", "two", "three"];
@@ -28,8 +28,8 @@ two completed.
 three completed.
 */
 
-// Same example with `PromiseChain`
-PromiseChain(arr, (item,i) => {
+// Same example with `PromiseSeq`
+PromiseSeq(arr, (item,i) => {
   console.log(item);
   return new Promise(prom_res => {
     setTimeout(() => {
@@ -40,7 +40,7 @@ PromiseChain(arr, (item,i) => {
 })
 
 /*
-The result for PromiseChain:
+The result for PromiseSeq:
 one
 one completed.
 two

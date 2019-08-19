@@ -1,5 +1,5 @@
 {
-  "name": "promisechain",
+  "name": "promiseseq",
   "version": "1.0.0",
   "description": "Permits to sequentially execute Promise requests one by one",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Aymkdn/PromiseChain.git"
+    "url": "git+https://github.com/Aymkdn/PromiseSeq.git"
   },
   "keywords": [
     "promise"
@@ -16,7 +16,7 @@
   "author": "aymkdn",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Aymkdn/PromiseChain/issues"
+    "url": "https://github.com/Aymkdn/PromiseSeq/issues"
   },
-  "homepage": "https://github.com/Aymkdn/PromiseChain#readme"
+  "homepage": "https://github.com/Aymkdn/PromiseSeq#readme"
 }
